@@ -4,5 +4,15 @@ to reuse that code for my own display since it works well enough.
 
 To build, just use make. You'll get a vivax-panel.ko driver that you're supposed to insmod or put in your initram.
 
-DKMS support is coming...
+In order to add this module as DKMS, you do:
+
+```
+# make dkms
+```
+
+Otherwise, to remove just do:
+
+```
+# make dkms_clean
+```
 
