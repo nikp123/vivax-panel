@@ -1,3 +1,5 @@
+**DEPRECATED: THE DRIVER IS MERGED INTO THE MAINLINE KERNEL. USE THIS DRIVER ONLY FOR DEVELOPMENT PURPOSES.**
+
 This is the kernel driver for my tablet's unique display that has no device manufacturer or model information written on it.
 Instead of bothering the mainline people to merge my shitty display panel, I opted instead to just use the panel-simple.c driver
 to reuse that code for my own display since it works well enough.
